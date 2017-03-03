@@ -16,14 +16,10 @@ class CanvasLibrary {
   }
 
   _stage_dragstart_touchstart(evt) {
-    var tween = null;
-    var shape = evt.target;
+    const shape = evt.target;
     shape.moveTo(this.dragLayer);
     this.stage.draw();
 
-    if (tween) {
-      tween.pause();
-    }
     shape.setAttrs({
       shadowOffset: {
         x: 15,
@@ -37,7 +33,7 @@ class CanvasLibrary {
   }
 
   _stage_dragend_touchend(evt) {
-    var shape = evt.target;
+    const shape = evt.target;
     shape.moveTo(this.layer);
     this.stage.draw();
     shape.to({

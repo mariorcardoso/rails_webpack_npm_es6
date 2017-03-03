@@ -6,7 +6,7 @@ class Rectangle {
   }
 
   draw(layer, stage) {
-    var rectangle = new Konva.Rect({
+    const rectangle = new Konva.Rect({
       x: Math.random() * stage.getWidth(),
       y: Math.random() * stage.getHeight(),
       width: this.width,

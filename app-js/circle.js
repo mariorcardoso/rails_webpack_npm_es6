@@ -5,7 +5,7 @@ class Circle {
   }
 
   draw(layer, stage) {
-      var circle = new Konva.Circle({
+      const circle = new Konva.Circle({
         x: Math.random() * stage.getWidth(),
         y: Math.random() * stage.getHeight(),
         radius: this.diameter,
