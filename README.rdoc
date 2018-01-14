@@ -1,5 +1,5 @@
-== README
+== Rails 4, Webpack and es6
 
-* Ruby 2.3.1
+Rails 4, Webpack and es6 were the topics of blog post that I publiched [here](https://revs.runtime-revolution.com/want-to-use-es6-with-rails-right-now-webpack-to-the-rescue-ebefb2004e9e)
 
-* Rails 4.2.7
+This application contains the code that I used in the article to explain how you can have webpack and es6 in a rails4 application.
